@@ -4,8 +4,8 @@
 
 ```
 
-import { IPLocationService } from "./iplocationservice.ts"
-import { CityLocationService } from "./citylocationservice.ts"
+import { IPLocationService } from "https://raw.githubusercontent.com/michael-spengler/location/master/iplocationservice.ts"
+import { CityLocationService } from "https://raw.githubusercontent.com/michael-spengler/location/master/citylocationservice.ts"
 
 
 const ip = '49.12.6.159'
