@@ -4,8 +4,8 @@
 
 ```
 
-import { IPLocationService } from "https://raw.githubusercontent.com/michael-spengler/location/master/iplocationservice.ts"
-import { CityLocationService } from "https://raw.githubusercontent.com/michael-spengler/location/master/citylocationservice.ts"
+import { IPLocationService } from "https://deno.land/x/location/iplocationservice.ts"
+import { CityLocationService } from "https://deno.land/x/location/citylocationservice.ts"
 
 
 const ip = '49.12.6.159'
@@ -27,8 +27,9 @@ console.log(`The city you asked for is about here: \n${JSON.stringify(cityLocati
 
 ## Test it via command line
 ```
-deno run --allow-net https://raw.githubusercontent.com/michael-spengler/location/master/test-it.ts
-<!-- deno run --allow-net https://deno.land/x/location/test-it.ts -->
+
+deno run --allow-net https://deno.land/x/location/test-it.ts
+
 ```
 
 ## Contributions are welcome
