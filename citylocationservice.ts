@@ -1,6 +1,6 @@
 
 import { CityService } from "https://deno.land/x/cities/cityservice.ts"
-import { ILatitudeLongitude } from "./interfaces.ts"
+import { ILatitudeLongitude } from "https://deno.land/x/cities/interfaces.ts"
 
 export class CityLocationService {
 
