@@ -1,9 +1,10 @@
 
 import { CityService } from "https://deno.land/x/cities/cityservice.ts"
+import { ILatitudeLongitude } from "./interfaces.ts"
 
 export class CityLocationService {
 
-    public static async getCityLocation(countryCode: string, cityName: string): Promise<any> {
+    public static async getCityLocation(countryCode: string, cityName: string): Promise<ILatitudeLongitude> {
 
         const cityInfo = CityService.getCityInfo(countryCode, cityName)
 
