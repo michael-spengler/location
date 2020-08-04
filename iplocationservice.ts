@@ -1,4 +1,4 @@
-import axiod from "https://deno.land/x/axiod/mod.ts"
+import { Request } from 'https://deno.land/x/request@1.0.0/request.ts'
 
 export class IPLocationService {
 
@@ -6,7 +6,7 @@ export class IPLocationService {
         const ipLocatorURL = `https://freegeoip.app/json/${ip}`
         let apiResult
         try {
-            apiResult = await axiod.get(ipLocatorURL)
+            apiResult = await Request.get(ipLocatorURL)
         } catch (error) {
             throw new Error(`The following error occurred while retrieving data for ip ${ip}: ${error.message}`)
         }

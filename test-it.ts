@@ -1,5 +1,5 @@
-import { IPLocationService } from "https://deno.land/x/location/iplocationservice.ts"
-import { CityLocationService } from "https://deno.land/x/location/citylocationservice.ts"
+import { IPLocationService } from "https://deno.land/x/location@1.1.0/iplocationservice.ts"
+import { CityLocationService } from "https://deno.land/x/location@1.1.0/citylocationservice.ts"
 
 
 const ip = '49.12.6.159'
