@@ -5,8 +5,8 @@
 
 ```
   
-import { IPLocationService } from "https://deno.land/x/location@1.1.1/iplocationservice.ts"
-import { CityLocationService } from "https://deno.land/x/location@1.1.1/citylocationservice.ts"
+import { IPLocationService } from "https://deno.land/x/location/iplocationservice.ts"
+import { CityLocationService } from "https://deno.land/x/location/citylocationservice.ts"
 
 
 const ip = '49.12.6.159'
@@ -16,12 +16,12 @@ console.log(`\nI found the following location for ip ${ip}: \n${JSON.stringify(i
 
 
 
-
 const countryCode = 'DE'
 const cityName = 'Heidelberg'
 const cityLocation = await CityLocationService.getCityLocation(countryCode, cityName)
 
 console.log(`The city you asked for is about here: \n${JSON.stringify(cityLocation)}\n`)
+
 
 
 ```
