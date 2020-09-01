@@ -1,9 +1,10 @@
+
 # Location Module
 
 ## Usage example for your code
 
 ```
-
+  
 import { IPLocationService } from "https://deno.land/x/location@1.1.1/iplocationservice.ts"
 import { CityLocationService } from "https://deno.land/x/location@1.1.1/citylocationservice.ts"
 
@@ -27,10 +28,17 @@ console.log(`The city you asked for is about here: \n${JSON.stringify(cityLocati
 
 ## Test it via command line
 ```
-
-deno run --allow-net https://deno.land/x/location@1.1.1/test-it.ts
-
+  
+deno run --allow-net https://deno.land/x/location/usage-examples.ts
+  
 ```
 
 ## Contributions are welcome
 Feel free to create a pull request if you would like to improve things.
+
+
+## Support my Open Source Contributions  
+
+If you like my work please consider downloading the brave browser via my promotion link: [https://brave.com/fan464](https://brave.com/fan464).  
+
+![![](https://brave.com/)](https://brave.com/wp-content/uploads/2019/01/logotype-full-color.svg)
