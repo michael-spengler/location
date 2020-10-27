@@ -21,7 +21,11 @@ const cityLocation = await CityLocationService.getCityLocation(countryCode, city
 
 console.log(`The city you asked for is about here: \n${JSON.stringify(cityLocation)}\n`)
 
+const lat = 49.40768
+const lng = 8.69079
+const threeWords = await What3WordsService.get3Words(lat, lng)
 
+console.log(`The what3words address is: \n${JSON.stringify(threeWords.words)}\n`)
 
 ```
 
@@ -29,8 +33,7 @@ console.log(`The city you asked for is about here: \n${JSON.stringify(cityLocati
 
 ```
 
-deno run --allow-net https://deno.land/x/location/usage-examples.ts
-deno run --allow-net --allow-read usage-examples.ts
+deno run --allow-net --allow-read https://deno.land/x/location/usage-examples.ts
 
 ```
 
