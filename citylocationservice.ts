@@ -16,5 +16,6 @@ export class CityLocationService {
             latitude: cityInfo.lat,
             longitude: cityInfo.lon,
         }
+
     }
 }
