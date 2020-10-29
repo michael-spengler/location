@@ -37,6 +37,14 @@ deno run --allow-net --allow-read https://deno.land/x/location/usage-examples.ts
 
 ```
 
+## Get 3 Words representation of Latitude and Longitude
+
+```sh
+
+deno run --allow-net https://deno.land/x/location/get-three-words-location.ts yourW3WAPIKey
+
+```
+
 ## Contributions are welcome
 
 Feel free to create a pull request if you would like to improve things.

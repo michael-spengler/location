@@ -2,7 +2,6 @@ import { DistanceCalculator } from "https://deno.land/x/distancecalculator@1.0.0
 
 export class Utility {
 
-
     public static getClosestEntry(items: any[], lat: number, lon: number): any {
 
         let itemsWithDistance = Utility.enrichDistance(items, lat, lon)
@@ -41,5 +40,4 @@ export class Utility {
         }
         return items
     }
-
 }
