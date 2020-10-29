@@ -21,12 +21,6 @@ const cityLocation = await CityLocationService.getCityLocation(countryCode, city
 
 console.log(`The city you asked for is about here: \n${JSON.stringify(cityLocation)}\n`)
 
-const lat = 49.40768
-const lng = 8.69079
-const threeWords = await What3WordsService.get3Words(lat, lng)
-
-console.log(`The what3words address is: \n${JSON.stringify(threeWords.words)}\n`)
-
 ```
 
 ## Test it via command line
