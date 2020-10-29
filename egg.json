@@ -1,0 +1,10 @@
+{
+                                "name": "location",
+                                "description": "🦕 Module to get Location Data - e.g. for IP Adresses or for Cities e.g. on earth 🌍 or on mars 🚀👩‍🚀👯‍♀️🛰🌌",
+                                "homepage": "https://github.com/michael-spengler/location",
+                                "files": [
+                                  "./**/*.ts",
+                                  "README.md"
+                                ],
+                                "entry": "./mod.ts"
+                              }
